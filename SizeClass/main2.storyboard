@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yVL-jN-nl0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Uu9-MS-xmE">
+            <objects>
+                <viewController id="yVL-jN-nl0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C5F-ys-YKV"/>
+                        <viewControllerLayoutGuide type="bottom" id="3H8-jW-GUE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xcr-mx-oag">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DhA-8Y-Vpd" userLabel="AA_G">
+                                <rect key="frame" x="20" y="28" width="80" height="80"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="W57-Ke-0jl"/>
+                                    <constraint firstAttribute="height" constant="80" id="bSB-U3-6S0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVK-QT-01j" userLabel="AA_B">
+                                <rect key="frame" x="500" y="28" width="80" height="80"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="468" id="iWG-bb-d4Z"/>
+                                    <constraint firstAttribute="height" constant="352" id="rVP-MZ-zue"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="iWG-bb-d4Z"/>
+                                        <exclude reference="rVP-MZ-zue"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="iWG-bb-d4Z"/>
+                                        <include reference="rVP-MZ-zue"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DhA-8Y-Vpd" firstAttribute="leading" secondItem="iVK-QT-01j" secondAttribute="trailing" constant="21" id="0pv-0m-GFP"/>
+                            <constraint firstItem="3H8-jW-GUE" firstAttribute="top" secondItem="iVK-QT-01j" secondAttribute="bottom" constant="20" id="BNx-HG-7Im"/>
+                            <constraint firstItem="3H8-jW-GUE" firstAttribute="top" secondItem="iVK-QT-01j" secondAttribute="bottom" constant="20" id="F07-5b-vIK"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="iVK-QT-01j" secondAttribute="leading" id="PmX-Uf-ebn"/>
+                            <constraint firstItem="iVK-QT-01j" firstAttribute="top" secondItem="C5F-ys-YKV" secondAttribute="bottom" constant="8" id="Qs1-D5-I1x"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="DhA-8Y-Vpd" secondAttribute="leading" id="RtJ-An-Ire"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iVK-QT-01j" secondAttribute="trailing" id="SB1-S8-kIu"/>
+                            <constraint firstItem="iVK-QT-01j" firstAttribute="top" secondItem="DhA-8Y-Vpd" secondAttribute="bottom" constant="44" id="UAs-lY-KJJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iVK-QT-01j" secondAttribute="trailing" id="Xdv-yr-IHL"/>
+                            <constraint firstItem="DhA-8Y-Vpd" firstAttribute="top" secondItem="C5F-ys-YKV" secondAttribute="bottom" constant="8" id="d0f-HX-IK1"/>
+                            <constraint firstItem="iVK-QT-01j" firstAttribute="leading" secondItem="xcr-mx-oag" secondAttribute="leadingMargin" constant="-9" id="guv-4G-xN1"/>
+                            <constraint firstItem="iVK-QT-01j" firstAttribute="top" secondItem="C5F-ys-YKV" secondAttribute="bottom" constant="8" id="ibH-vl-7cn"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="iVK-QT-01j" secondAttribute="leading" id="k6G-tT-eMu"/>
+                            <constraint firstItem="DhA-8Y-Vpd" firstAttribute="top" secondItem="iVK-QT-01j" secondAttribute="top" id="pt3-AJ-Jhy"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PmX-Uf-ebn"/>
+                                <exclude reference="Qs1-D5-I1x"/>
+                                <exclude reference="UAs-lY-KJJ"/>
+                                <exclude reference="Xdv-yr-IHL"/>
+                                <exclude reference="guv-4G-xN1"/>
+                                <exclude reference="k6G-tT-eMu"/>
+                                <exclude reference="BNx-HG-7Im"/>
+                                <exclude reference="F07-5b-vIK"/>
+                                <exclude reference="0pv-0m-GFP"/>
+                                <exclude reference="pt3-AJ-Jhy"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="Qs1-D5-I1x"/>
+                                <exclude reference="SB1-S8-kIu"/>
+                                <include reference="guv-4G-xN1"/>
+                                <exclude reference="ibH-vl-7cn"/>
+                                <include reference="0pv-0m-GFP"/>
+                                <exclude reference="RtJ-An-Ire"/>
+                                <exclude reference="d0f-HX-IK1"/>
+                                <include reference="pt3-AJ-Jhy"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="PmX-Uf-ebn"/>
+                                <exclude reference="SB1-S8-kIu"/>
+                                <exclude reference="ibH-vl-7cn"/>
+                                <include reference="BNx-HG-7Im"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="SB1-S8-kIu"/>
+                                <include reference="UAs-lY-KJJ"/>
+                                <include reference="Xdv-yr-IHL"/>
+                                <exclude reference="ibH-vl-7cn"/>
+                                <include reference="k6G-tT-eMu"/>
+                                <include reference="F07-5b-vIK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wDG-tK-rgg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="897"/>
+        </scene>
+    </scenes>
+</document>
